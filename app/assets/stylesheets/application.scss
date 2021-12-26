@@ -1,0 +1,112 @@
+@import "bootstrap";
+
+body {
+	padding-top: 80px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	position: relative;
+	text-align: center;
+	height: 300px;
+  	width: 100%;
+  	background-color: powderblue;
+}
+
+.centered-element {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: #777;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+	/*brand name*/
+#navbar-brand {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#navbar-brand:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-item {
+	margin: 10px;
+}
+
+
+/*footer*/
+
+.footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #fff;
+}
+
+.footer a {
+	color: #555;
+}
+
+.footer a:hover {
+	color: #222;
+}
+
+.footer small {
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	list-style: none;
+}
+
+.footer ul li {
+	float: left;
+	margin-left: 15px;
+}
