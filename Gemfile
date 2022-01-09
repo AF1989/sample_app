@@ -49,3 +49,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 5.1.3'
 gem 'rails-controller-testing', '~> 0.0.3'
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+
